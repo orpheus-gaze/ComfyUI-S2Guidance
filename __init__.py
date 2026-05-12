@@ -6,6 +6,7 @@ from comfy_api.latest import ComfyExtension, io
 import torch
 import numpy as np
 import random
+import math
 
 class S2Guidance_DIT(io.ComfyNode):
 
@@ -79,7 +80,7 @@ class S2Guidance_DIT(io.ComfyNode):
                 total_num_blocks = double_layers + single_layers
             
                 skip_layers_prob = skip_layers_percentage / 100.0
-                skip_layers = np.ceil(skip_layers_prob * total_num_blocks) # skip_layers_percentage is set as user input
+                skip_layers = int(math.ceil(skip_layers_prob * total_num_blocks)) # skip_layers_percentage is set as user input
                 all_indices = list(range(total_num_blocks))                
                 layers_to_skip = random.sample(all_indices, skip_layers)
                 
@@ -239,7 +240,7 @@ class PerpoGuidance_DIT(io.ComfyNode):
                 total_num_blocks = double_layers + single_layers
             
                 skip_layers_prob = skip_layers_percentage / 100.0
-                skip_layers = np.ceil(skip_layers_prob * total_num_blocks) # skip_layers_percentage is set as user input
+                skip_layers = int(math.ceil(skip_layers_prob * total_num_blocks)) # skip_layers_percentage is set as user input
                 all_indices = list(range(total_num_blocks))                
                 layers_to_skip = random.sample(all_indices, skip_layers)
                 

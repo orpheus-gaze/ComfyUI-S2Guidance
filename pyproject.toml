@@ -1,7 +1,7 @@
 [project]
 name = "ComfyUI-S2Guidance"
 description = "A lightweight ComfyUI extension implementing S²-Guidance and Perpo-Guidance, two advanced sampling techniques designed to improve prompt adherence and generation robustness compared to standard CFG."
-version = "1.0.0"
+version = "1.0.1"
 license = {file = "LICENSE"} 
 # classifiers = [
 #     # For OS-independent nodes (works on all operating systems)
