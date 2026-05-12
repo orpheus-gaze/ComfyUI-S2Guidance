@@ -28,7 +28,7 @@ Documentation = "https://github.com/orpheus-gaze/ComfyUI-S2Guidance/wiki"
 "Bug Tracker" = "https://github.com/orpheus-gaze/ComfyUI-S2Guidance/issues"
 
 [tool.comfy]
-PublisherId = ""
+PublisherId = "orpheus-gaze"
 DisplayName = "ComfyUI-S2Guidance"
 Icon = ""
 includes = [] 
