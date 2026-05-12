@@ -6,7 +6,7 @@ A lightweight ComfyUI extension implementing **S²-Guidance** and **Perpo-Guidan
 1. Navigate to your `ComfyUI/custom_nodes/` directory.
 2. Clone this repository:
    ```bash
-   git clone https://github.com/<your-username>/ComfyUI-S2Guidance.git
+   git clone https://github.com/orpheus-gaze/ComfyUI-S2Guidance.git
    ```
 3. No extra pip dependencies are required (uses standard `torch`, `numpy`, and ComfyUI's core APIs).
 4. Restart ComfyUI or refresh your browser window.
