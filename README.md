@@ -2,6 +2,7 @@
 A lightweight ComfyUI extension implementing **S²-Guidance** and **Perpo-Guidance**, two advanced sampling techniques designed to improve prompt adherence and generation robustness compared to standard CFG. **S²-Guidance** is based on the methodology described in [arXiv:2508.12880](https://arxiv.org/abs/2508.12880), while **Perpo-Guidance** is my personal take on it with slightly different operations.
 
 ![normal_vs_perpo](assets/normal-vs-perpoguidance_0.4-1_.gif)
+
 *left: normal CFG, right: perpoguidance scale 0.4 @ 1*
 
 ## 📦 Installation
